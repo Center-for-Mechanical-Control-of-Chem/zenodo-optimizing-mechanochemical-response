@@ -1,0 +1,18 @@
+# macOS metadata
+.DS_Store
+
+# Python bytecode and cache directories
+__pycache__/
+*.pyc
+*.pyo
+*.npz
+*.pptx
+
+# Large gamma-scan datasets are distributed through Zenodo.
+# Keep small JSON provenance/layout files and .zenodo.json in Git.
+/gamma_escans_derivs*.json
+
+# Notebook and plotting caches
+.ipynb_checkpoints/
+.numba/
+.matplotlib/

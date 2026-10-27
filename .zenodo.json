@@ -1,0 +1,44 @@
+{
+  "title": "Analysis code and supporting data for \"Compliance Mismatch Drives Mechanochemical Reactivity in Diels-Alder Reactions\"",
+  "description": "Figure-analysis notebook and supporting data for Compliance Mismatch Drives Mechanochemical Reactivity in Diels-Alder Reactions. The analysis compares force-induced reaction-barrier changes, molecular compliance, deformation, and hydrostatic-pressure response in cyclopentadiene-based Diels-Alder reactions. Large numerical archives and gamma-scan JSON files are distributed separately through Zenodo; see README.md and DATA_MANIFEST.csv for file locations and checksums.",
+  "creators": [
+    {
+      "name": "Boyer, Mark A.",
+      "affiliation": "Department of Chemistry, Texas A & M University, College Station, Texas, United States of America"
+    },
+    {
+      "name": "Kwok, Ryan",
+      "affiliation": "PhD Program in Chemistry, The Graduate Center, The City University of New York; Department of Chemistry, Hunter College, The City University of New York, New York, United States of America"
+    },
+    {
+      "name": "Chao, Tzu-Hsuan",
+      "affiliation": "Department of Chemistry, Texas A & M University, College Station, Texas, United States of America"
+    },
+    {
+      "name": "Ho, Yeu-Shiuan",
+      "affiliation": "Department of Chemistry, Texas A & M University, College Station, Texas, United States of America"
+    },
+    {
+      "name": "Hopper, Nicholas",
+      "affiliation": "Department of Chemistry, Texas A & M University, College Station, Texas, United States of America"
+    },
+    {
+      "name": "Marianski, Mateusz",
+      "affiliation": "PhD Program in Chemistry, The Graduate Center, The City University of New York; Department of Chemistry, Hunter College, The City University of New York, New York, United States of America"
+    },
+    {
+      "name": "Tabor, Daniel P.",
+      "affiliation": "Department of Chemistry, Texas A & M University, College Station, Texas, United States of America"
+    }
+  ],
+  "upload_type": "software",
+  "keywords": [
+    "mechanochemistry",
+    "Diels-Alder reactions",
+    "compliance matrix",
+    "mechanochemical reactivity",
+    "hydrostatic pressure",
+    "force-modified reaction barriers"
+  ],
+  "language": "eng"
+}

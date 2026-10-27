@@ -1,0 +1,325 @@
+{
+  "schema_version": 1,
+  "description": "Record-aligned inputs for the four loaded pressure/force panels",
+  "units": {
+    "delta_volume": "angstrom^3",
+    "reactant_rmsd": "angstrom",
+    "delta_barrier": "kcal/mol",
+    "pressure": "MPa",
+    "force": "pN"
+  },
+  "pressure_mpa": [
+    100,
+    200,
+    500,
+    1000
+  ],
+  "force_magnitude_pn": 200,
+  "force_signs": "both",
+  "force_count": 26955,
+  "pressure_inputs": {
+    "volume_provenance": {
+      "definition": "V_TS(P)-V_R(P), evaluated separately at each plotted pressure",
+      "method": "Molecule.get_surface(radius_scaling=1.8).volume(method='alpha-mol')",
+      "pressures_mpa": [
+        100,
+        200,
+        500,
+        1000
+      ],
+      "radius_scaling": 1.8,
+      "bohr_to_angstrom": 0.529177210903,
+      "keys": [
+        "0_0",
+        "1_0",
+        "2_0",
+        "3_0",
+        "4_2",
+        "5_1",
+        "6_6",
+        "7_0",
+        "8_3",
+        "9_4",
+        "10_5",
+        "11_2",
+        "12_6",
+        "13_4",
+        "14_5",
+        "15_7",
+        "16_0",
+        "17_3",
+        "18_1",
+        "19_0",
+        "20_1",
+        "21_5",
+        "22_8",
+        "23_6",
+        "24_3",
+        "25_0",
+        "26_7",
+        "27_1",
+        "28_4",
+        "29_0",
+        "30_2",
+        "31_5",
+        "32_1",
+        "33_7",
+        "34_6",
+        "35_9",
+        "36_4",
+        "37_3",
+        "38_0",
+        "39_0",
+        "40_0",
+        "41_0",
+        "42_5",
+        "43_1",
+        "44_12",
+        "45_11",
+        "46_8",
+        "47_6",
+        "48_10",
+        "49_2",
+        "50_4",
+        "51_0",
+        "52_1",
+        "53_9",
+        "54_3",
+        "55_5",
+        "56_7",
+        "57_10",
+        "58_3",
+        "59_1",
+        "60_0",
+        "61_2",
+        "62_8",
+        "63_5",
+        "64_10",
+        "65_1",
+        "66_12",
+        "67_0",
+        "68_7",
+        "69_2",
+        "70_11",
+        "71_5",
+        "72_4",
+        "73_6",
+        "74_3",
+        "75_1",
+        "76_7",
+        "77_12",
+        "78_11",
+        "79_13",
+        "80_0",
+        "81_0",
+        "82_5",
+        "83_4",
+        "84_1",
+        "85_0",
+        "86_6",
+        "87_3",
+        "88_5",
+        "89_4",
+        "90_3",
+        "91_7",
+        "92_1",
+        "94_2",
+        "95_0",
+        "96_0",
+        "97_2",
+        "98_0",
+        "99_11",
+        "100_5",
+        "101_4",
+        "102_9",
+        "103_0",
+        "104_7",
+        "105_8",
+        "106_2",
+        "107_6",
+        "108_3",
+        "109_0",
+        "110_10",
+        "111_9",
+        "112_7",
+        "113_2",
+        "114_1",
+        "115_5",
+        "116_3",
+        "117_4",
+        "118_0",
+        "119_3",
+        "120_2",
+        "121_0",
+        "122_1",
+        "123_4",
+        "124_5",
+        "125_6",
+        "126_2",
+        "127_6",
+        "128_4",
+        "129_0",
+        "130_3",
+        "131_5",
+        "132_1",
+        "133_1",
+        "134_2",
+        "135_0",
+        "136_5",
+        "137_0",
+        "138_1",
+        "139_9",
+        "140_7",
+        "141_3",
+        "142_8",
+        "143_6",
+        "145_2",
+        "146_3",
+        "147_12",
+        "148_7",
+        "149_0",
+        "150_9",
+        "151_2",
+        "152_10",
+        "153_8",
+        "154_5",
+        "155_6",
+        "156_37",
+        "157_31",
+        "158_29",
+        "159_35",
+        "160_20",
+        "161_22",
+        "163_2",
+        "164_0",
+        "167_5",
+        "168_4",
+        "169_7"
+      ],
+      "sources": {
+        "paper:/pressure_outputs/R_conformers.npz": [
+          1467416,
+          1789573403689197373
+        ],
+        "paper:/pressure_outputs/P_TS_conformers.npz": [
+          873778,
+          1789573445279382407
+        ],
+        "~/Documents/UW/Research/Development/Psience/Psience/Molecools/Molecule.py": [
+          308305,
+          1792533160228533569
+        ],
+        "~/Documents/UW/Research/Development/McUtils/McUtils/Zachary/Surfaces/SphereUnionSurface.py": [
+          237583,
+          1790720077149655910
+        ],
+        "~/Documents/UW/Research/Development/McUtils/McUtils/Zachary/Surfaces/AlphaMol.py": [
+          72623,
+          1790615007803426717
+        ]
+      }
+    },
+    "cache_path": "build-source:/notebook_pressure_inputs_alpha-mol.npz",
+    "prior_1000_geometry_count": 165,
+    "aligned_geometry_count": 165,
+    "prior_keys_without_all_pressures": [
+      "167_5"
+    ],
+    "archive_keys_absent_from_workbook": {
+      "reactant": [
+        "234_0"
+      ],
+      "TS": []
+    },
+    "rmsd_keys_absent_from_workbook": {
+      "100": [
+        "234_0"
+      ],
+      "200": [
+        "234_0"
+      ],
+      "500": [
+        "234_0"
+      ],
+      "1000": [
+        "234_0"
+      ]
+    },
+    "workbook": {
+      "path": "paper:/pressure/sorted_master_newdataset_rm_0910.xlsx",
+      "stat": [
+        1679735,
+        1789570820503387974
+      ]
+    },
+    "rmsd_source": {
+      "path": "paper:/pressure_outputs/R_rmsd_dataset.pkl",
+      "stat": [
+        95938,
+        1789573395469304240
+      ]
+    }
+  },
+  "force_inputs": {
+    "analysis_source": {
+      "mtime_ns": 1790972723480845771,
+      "path": "~/Documents/Postdoc/Development/cmcc-reactions/cmcc_reactions/reaction_data_analysis.py",
+      "size": 110196
+    },
+    "atomic_force_to_pn": 82387.23498254077,
+    "backend_source": {
+      "mtime_ns": 1790615007803426717,
+      "path": "~/Documents/UW/Research/Development/McUtils/McUtils/Zachary/Surfaces/AlphaMol.py",
+      "size": 72623
+    },
+    "bohr_to_angstrom": 0.529177210903,
+    "count": 26955,
+    "force_signs": "both",
+    "hartree_to_kcal_mol": 627.5094740630558,
+    "molecule_source": {
+      "mtime_ns": 1792533160228533569,
+      "path": "~/Documents/UW/Research/Development/Psience/Psience/Molecools/Molecule.py",
+      "size": 308305
+    },
+    "radius_scaling": "installed Molecule.get_surface default; no override",
+    "record_order_sha256": "d290eaf9df3a670c83af0745da8243e9b5e843bbcd4c6913703e157c94a8e8a6",
+    "rmsd_method": "McUtils.Numputils.eckart_rmsd(g0, gf), notebook cell 499",
+    "rmsd_source": {
+      "mtime_ns": 1789859152761062361,
+      "path": "~/Documents/UW/Research/Development/McUtils/McUtils/Numputils/CoordinateFrames.py",
+      "size": 60161
+    },
+    "schema_version": 1,
+    "selection": "load_prep_filter defaults, then abs(force_magnitudes_pN) > 199",
+    "source": {
+      "mtime_ns": 1784925889009156119,
+      "path": "paper:/compressed_datasets/product_library_cyclop_b97_expanded.npz",
+      "size": 8952611828
+    },
+    "surface_options": {},
+    "surface_signature": "(self, radius_type='VanDerWaalsRadius', *, surface_type=None, radius_units='Angstroms', samples=100, radius_scaling=1, **etc)",
+    "surface_source": {
+      "mtime_ns": 1790720077149655910,
+      "path": "~/Documents/UW/Research/Development/McUtils/McUtils/Zachary/Surfaces/SphereUnionSurface.py",
+      "size": 237583
+    },
+    "volume_method": "Molecule.get_surface().volume(method='alpha-mol')",
+    "volume_options": {
+      "method": "alpha-mol"
+    },
+    "volume_signature": "(method='union-ball', **opts)"
+  },
+  "native_plot_source_sha256": {
+    "pressure_volume_fit_shrunk": "38ba48f8802c2803e9a494031552ff0ff2db60944689b703149c18c55e8e9c70",
+    "pressure_volume_fit_all": "2cfd82f507b0e520388915f804a42d85523ae32d53f4af78154b1804ae6508eb",
+    "activation_volume_force_plot_panel": "d5b152633c5050461ba19a73c4a07132609850f344c081f07bb9e157ca02819d",
+    "RMSD_r_base_panel": "0be25b90e2db3658950d1e8d29fa27b938f99d5fc5d97d62365a7451f5534290"
+  },
+  "equation_layout_sha256": "fcdc817f7e32f5e54f4ea3d7bf55a0d716dcd6c15eca6bf723b1dc2efe579b2d",
+  "bundle_paths": {
+    "data": "input_data.npz",
+    "layout": "equation_layout.json",
+    "provenance": "provenance.json",
+    "exports": "panels/"
+  }
+}

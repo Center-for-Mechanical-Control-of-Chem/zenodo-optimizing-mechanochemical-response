@@ -1,0 +1,102 @@
+{
+  "source": "../../figs_DA.pptx",
+  "common_x_axes": [
+    0.15,
+    0.225
+  ],
+  "common_y_axes": [
+    0.10638297872340426,
+    0.021276595744680774
+  ],
+  "explanation": "Shared text anchors; A/C y compensation preserves exact slide baselines through existing picture crops.",
+  "panels": {
+    "pressure_volume_fit_shrunk": {
+      "positions_axes": [
+        [
+          0.15,
+          0.10452694473845804
+        ],
+        [
+          0.225,
+          0.01933901364618134
+        ]
+      ],
+      "expected_slide_baselines_px": [
+        691.3765842467961,
+        731.0132394278376
+      ],
+      "svg_to_slide": {
+        "x_scale": 2.279325513828446,
+        "x_offset": 65.44448622045749,
+        "y_scale": 2.2696822776345633,
+        "y_offset": 217.98446596252055
+      }
+    },
+    "pressure_volume_fit_all": {
+      "positions_axes": [
+        [
+          0.15,
+          0.1063829787234042
+        ],
+        [
+          0.225,
+          0.021276595744680757
+        ]
+      ],
+      "expected_slide_baselines_px": [
+        691.3765842467961,
+        731.0132394278376
+      ],
+      "svg_to_slide": {
+        "x_scale": 2.2799996715739,
+        "x_offset": 683.5600111117498,
+        "y_scale": 2.271857065254815,
+        "y_offset": 218.39527821449047
+      }
+    },
+    "activation_volume_force_plot_panel": {
+      "positions_axes": [
+        [
+          0.15,
+          0.1050956993965757
+        ],
+        [
+          0.225,
+          0.019990249977222613
+        ]
+      ],
+      "expected_slide_baselines_px": [
+        1234.4602251624044,
+        1274.2387495475782
+      ],
+      "svg_to_slide": {
+        "x_scale": 2.28000810351515,
+        "x_offset": 66.42624513452697,
+        "y_scale": 2.2800136030134883,
+        "y_offset": 759.1791194389959
+      }
+    },
+    "RMSD_r_base_panel": {
+      "positions_axes": [
+        [
+          0.15,
+          0.1063829787234042
+        ],
+        [
+          0.225,
+          0.021276595744680757
+        ]
+      ],
+      "expected_slide_baselines_px": [
+        1234.4602251624044,
+        1274.2387495475782
+      ],
+      "svg_to_slide": {
+        "x_scale": 2.2793043124638332,
+        "x_offset": 682.3631511447804,
+        "y_scale": 2.2799885928087416,
+        "y_offset": 759.786004297861
+      }
+    }
+  }
+}

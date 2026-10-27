@@ -1,0 +1,154 @@
+{
+  "pressure_volume_fit_shrunk": {
+    "x_limits": [
+      -62.0,
+      5.0
+    ],
+    "y_limits": [
+      -2.8,
+      1.9
+    ],
+    "equation_text": [
+      "$\\Delta \\Delta E^{\\ddagger} \\left[P=1000 \\text{MPa}\\right] =$",
+      "$\\left(0.037 \\mathrm{\\AA}^{-3} + 0.599\\right) \\text{ kcal mol}^{-1}$"
+    ],
+    "equation_positions_axes": [
+      [
+        0.15,
+        0.10452694473845804
+      ],
+      [
+        0.225,
+        0.01933901364618134
+      ]
+    ],
+    "equation_baselines_svg_pt": [
+      [
+        124.74999999999997,
+        208.5719763286161
+      ],
+      [
+        144.62499999999997,
+        226.03550220253283
+      ]
+    ],
+    "equation_baselines_slide_px": [
+      691.3765842467961,
+      731.0132394278376
+    ]
+  },
+  "pressure_volume_fit_all": {
+    "x_limits": [
+      -0.01,
+      0.37
+    ],
+    "y_limits": [
+      -2.8,
+      1.9
+    ],
+    "equation_text": [
+      "$\\Delta \\Delta E^{\\ddagger} \\left[P=1000 \\text{MPa}\\right] = $",
+      "$-11.5\\ \\text{kcal}\\,\\text{mol}^{-1} / \\mathrm{\\AA}$"
+    ],
+    "equation_positions_axes": [
+      [
+        0.15,
+        0.1063829787234042
+      ],
+      [
+        0.225,
+        0.021276595744680757
+      ]
+    ],
+    "equation_baselines_svg_pt": [
+      [
+        124.74999999999997,
+        208.19148936170214
+      ],
+      [
+        144.62499999999997,
+        225.63829787234044
+      ]
+    ],
+    "equation_baselines_slide_px": [
+      691.3765842467961,
+      731.0132394278376
+    ]
+  },
+  "activation_volume_force_plot_panel": {
+    "x_limits": [
+      -10.380853590013817,
+      -5.154967718000232
+    ],
+    "y_limits": [
+      -14.048929228939848,
+      4.305240759825287
+    ],
+    "equation_text": [
+      "$\\Delta \\Delta E^{\\ddagger} \\left[\\vec{F}=200 \\text{pN}\\right] =$",
+      "$\\left(-0.462 \\mathrm{\\AA}^{-3} -5.96\\right) \\text{kcal}\\,\\text{mol}^{-1}$"
+    ],
+    "equation_positions_axes": [
+      [
+        0.15,
+        0.1050956993965757
+      ],
+      [
+        0.225,
+        0.019990249977222613
+      ]
+    ],
+    "equation_baselines_svg_pt": [
+      [
+        124.74999999999997,
+        208.45538162370198
+      ],
+      [
+        144.62499999999997,
+        225.90199875466936
+      ]
+    ],
+    "equation_baselines_slide_px": [
+      1234.4602251624044,
+      1274.2387495475782
+    ]
+  },
+  "RMSD_r_base_panel": {
+    "x_limits": [
+      -0.08173502691979435,
+      1.7164355653156813
+    ],
+    "y_limits": [
+      -14.048929228939848,
+      4.305240759825287
+    ],
+    "equation_text": [
+      "$\\Delta \\Delta E^{\\ddagger} \\left[\\vec{F}=200 \\text{pN}\\right] =$",
+      "$-6.50\\text{kcal}\\, \\text{mol}^{-1} / \\mathrm{\\AA}$"
+    ],
+    "equation_positions_axes": [
+      [
+        0.15,
+        0.1063829787234042
+      ],
+      [
+        0.225,
+        0.021276595744680757
+      ]
+    ],
+    "equation_baselines_svg_pt": [
+      [
+        124.74999999999997,
+        208.19148936170214
+      ],
+      [
+        144.62499999999997,
+        225.63829787234044
+      ]
+    ],
+    "equation_baselines_slide_px": [
+      1234.4602251624044,
+      1274.2387495475782
+    ]
+  }
+}
